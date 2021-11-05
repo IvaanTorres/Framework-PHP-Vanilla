@@ -53,7 +53,7 @@ $routeInfo = $dispatcher->dispatch($http_method, $uri);
 
 switch ($routeInfo[0]) {
     case FastRoute\Dispatcher::NOT_FOUND:
-        $controllerName = '\\controllers\\'.'Main';
+        $controllerName = '\\app\\controllers\\'.'Main';
         $action = 'error_404';
         $controller = new $controllerName($templates);
         $controller->$action();

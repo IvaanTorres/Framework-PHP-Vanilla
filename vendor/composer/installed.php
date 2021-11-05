@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'f50376edf7afb7478ec921e4cd7967a07a03131c',
+        'reference' => NULL,
         'name' => 'equipo/framework-php-mvc-v1.0',
         'dev' => true,
     ),
@@ -20,12 +20,12 @@
             'dev_requirement' => false,
         ),
         'equipo/framework-php-mvc-v1.0' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'f50376edf7afb7478ec921e4cd7967a07a03131c',
+            'reference' => NULL,
             'dev_requirement' => false,
         ),
         'graham-campbell/result-type' => array(
