@@ -1,0 +1,13 @@
+parameters:
+	scanDirectories:
+		- src/DDTrace
+	scanFiles:
+		- bridge/configuration.php
+		- bridge/dd_register_optional_deps_autoloader.php
+	excludes_analyse:
+		- src/DDTrace/Bootstrap.php
+		- src/DDTrace/Integrations
+		- src/DDTrace/OpenTracer
+	reportUnmatchedIgnoredErrors: false
+	ignoreErrors:
+		- '#Access to an undefined property DDTrace\\Span::\$internalSpan#'

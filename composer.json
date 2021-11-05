@@ -1,0 +1,23 @@
+{
+    "name": "equipo/framework-php-mvc-v1.0",
+    "autoload": {
+        "psr-4": {
+            "Equipo\\Practica3Mvc\\": "src/",
+            "app\\": "app/",
+            "core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivan Torres Garcia",
+            "email": "ivantorresgarcia.02@gmail.com"
+        }
+    ],
+    "require": {
+        "mtdowling/jmespath.php": "^2.6",
+        "league/plates": "^3.4",
+        "nikic/fast-route": "^1.3",
+        "vlucas/phpdotenv": "^5.3",
+        "datadog/dd-trace": "^0.66.0"
+    }
+}
