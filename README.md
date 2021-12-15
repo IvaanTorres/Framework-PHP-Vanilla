@@ -8,6 +8,13 @@ It uses different external libraries such us:
 * Nikic/fast-route - v1.3
 * Vlucas/phpdotenv - v5.3
 
+## Features
+
+- Router (based on Laravel)
+- .ENV
+- Own ORM (based on Eloquent/Laravel)
+- MVC
+
 ## Config
 
 ### .ENV
