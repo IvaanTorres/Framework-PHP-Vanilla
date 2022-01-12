@@ -9,7 +9,7 @@ $this->layout('main', ['title' => 'Criticas - Insertar']);
     </div>
     <div class="form-group">
         <label for="puntuacion">Puntuación:</label>
-        <input type="number" step='0.1' min='0' max='5' class="form-control" name="puntuacion" placeholder="Puntuación..." />
+        <input type="number" step='0.1' min='0' max='10' class="form-control" name="puntuacion" placeholder="Puntuación..." />
     </div>
     <div class="form-group">
         <label for="precio">Critica:</label>

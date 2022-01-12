@@ -6,7 +6,7 @@
     <?php
     foreach ($peliculas as $pelicula) {
     ?>
-        <div class="col-3">
+        <div class="col-4">
             <br>
             <a href=<?=$_ENV['APP_URL'] . "/peliculas/" . $pelicula['id']?> class="custom-card">
             
