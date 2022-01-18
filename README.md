@@ -11,6 +11,7 @@ It uses different external libraries such us:
 ## Features
 
 - Router (based on Laravel)
+- Auth System based on tokens
 - .ENV
 - Own ORM (based on Eloquent/Laravel)
 - MVC
